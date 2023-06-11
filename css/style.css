@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@500;600;700&display=swap");
+
+:root {
+  --darkGray: hsl(0, 0%, 63%);
+  --black: hsl(0, 0%, 0%);
+  --white: hsl(0, 0%, 100%);
+  --veryDarkGray: hsl(0, 0%, 27%);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: "League Spartan", sans-serif;
+  font-size: 15px;
+}
+
+body {
+  background-color: var(--white);
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+header {
+  display: fixed;
+  margin-top: 50px;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 6rem;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 1.4rem;
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  color: var(--black);
+  margin-bottom: 30px;
+}
+
+p {
+  color: var(--darkGray);
+  line-height: 1.7;
+}
+
+.img-fluid {
+  max-width: 100%;
+}
+
+.slider-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  min-height: 70vh;
+}
+
+.slider-image {
+  flex: 1;
+}
+
+.slider-content {
+  flex: 1;
+  padding: 50px 100px;
+  position: relative;
+}
+
+.cta-btn {
+  border: none;
+  background-color: transparent;
+}
+
+.slider-nav {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.slider-content p {
+  margin-right: 20%;
+  margin-bottom: 40px;
+}
+.about-section {
+  display: flex;
+  min-height: 30vh;
+}
+
+.about-content {
+  padding: 5rem 3.5rem;
+}
