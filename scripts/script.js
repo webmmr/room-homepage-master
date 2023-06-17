@@ -8,7 +8,7 @@ const prevBtn = document.getElementById("prev");
 const nextBtn = document.getElementById("next");
 const hamBtn = document.getElementById("mobile-nav-open-btn");
 const closeBtn = document.getElementById("mobile-nav-close-btn");
-const mobNav = document.querySelector(".mobile-nav");
+const mobNav = document.getElementById("mobile-nav");
 
 // Open mobile navigation
 function openMobileNav() {
