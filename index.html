@@ -19,54 +19,65 @@
   <body>
     <header>
       <div class="container">
-        <img src="images/logo.svg" alt="room" class="logo" />
-        <nav>
-          <ul>
-            <li><a href="#">home</a></li>
-            <li><a href="#">shop</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">contact</a></li>
-          </ul>
-        </nav>
+        <div class="navbar">
+          <img src="images/logo.svg" alt="room" class="logo .img-fluid" />
+          <nav>
+            <ul>
+              <li class="nav-item"><a href="#" class="nav-link">home</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">shop</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">about</a></li>
+              <li class="nav-item"><a href="#" class="nav-link">contact</a></li>
+            </ul>
+          </nav>
+        </div>
       </div>
     </header>
 
     <main>
-      <div class="slider-section">
+      <div class="slider-container">
         <div class="slider-image">
           <img
-            src="images/desktop-image-hero-1.jpg"
-            alt="desktop-image-hero-1"
+            src="images/desktop-image-hero-0.jpg"
+            alt="desktop-image-hero-0"
             class="slider-image img-fluid"
+            id="slider-image"
           />
         </div>
-        <div class="slider-content">
-          <h1>Discover innovative ways to decorate</h1>
-          <p>
-            We provide unmatched quality, comfort, and style for property owners
-            across the country. Our experts combine form and function in
-            bringing your vision to life. Create a room in your own style with
-            our collection and make your property a reflection of you and what
-            you love.
-          </p>
-          <button class="cta-btn">
-            Shop Now
-            <span>
-              <img src="images/icon-arrow.svg" alt="" class="img-fluid" />
-            </span>
-          </button>
-          <div class="slider-nav">
-            <button>
-              <img src="images/icon-angle-left.svg" alt="prev" id="prev" />
+        <div class="slider-content" id="slide">
+          <div class="slider-text">
+            <h1 id="hero-text">Discover innovative ways to decorate</h1>
+            <p id="hero-copy">
+              We provide unmatched quality, comfort, and style for property
+              owners across the country. Our experts combine form and function
+              in bringing your vision to life. Create a room in your own style
+              with our collection and make your property a reflection of you and
+              what you love.
+            </p>
+            <button class="cta-btn">
+              Shop Now
+              <span>
+                <img src="images/icon-arrow.svg" alt="" class="img-fluid" />
+              </span>
             </button>
-            <button>
-              <img src="images/icon-angle-right.svg" alt="next" id="next" />
+          </div>
+          <div class="slider-nav">
+            <button id="prev">
+              <img src="images/icon-angle-left.svg" alt="prev" />
+            </button>
+            <button id="next">
+              <img src="images/icon-angle-right.svg" alt="next" />
             </button>
           </div>
         </div>
       </div>
-      <div class="about-section">
-        <img src="images/image-about-dark.jpg" alt="Image dark About" />
+      <div class="about-container">
+        <div class="about-left-image">
+          <img
+            src="images/image-about-dark.jpg"
+            alt="Image dark About"
+            class="img-fluid"
+          />
+        </div>
         <div class="about-content">
           <h2>About our furniture</h2>
           <p>
@@ -78,11 +89,13 @@
             help you create your dream space.
           </p>
         </div>
-        <img
-          src="images/image-about-light.jpg"
-          alt="Image Light About"
-          class="img-fluid"
-        />
+        <div class="about-right-image">
+          <img
+            src="images/image-about-light.jpg"
+            alt="Image Light About"
+            class="img-fluid"
+          />
+        </div>
       </div>
     </main>
 
