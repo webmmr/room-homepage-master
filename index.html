@@ -21,7 +21,7 @@
       <div class="container">
         <div class="navbar">
           <img src="images/logo.svg" alt="room" class="logo .img-fluid" />
-          <nav>
+          <nav class="desktop-nav">
             <ul>
               <li class="nav-item"><a href="#" class="nav-link">home</a></li>
               <li class="nav-item"><a href="#" class="nav-link">shop</a></li>
@@ -29,8 +29,23 @@
               <li class="nav-item"><a href="#" class="nav-link">contact</a></li>
             </ul>
           </nav>
+
+          <div id="mobile-nav-open-btn">
+            <img src="images/icon-hamburger.svg" alt="" />
+          </div>
         </div>
       </div>
+      <nav class="mobile-nav">
+        <div id="mobile-nav-close-btn">
+          <img src="images/icon-close.svg" alt="" />
+        </div>
+        <ul>
+          <li class="nav-item"><a href="#" class="nav-link">home</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">shop</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">about</a></li>
+          <li class="nav-item"><a href="#" class="nav-link">contact</a></li>
+        </ul>
+      </nav>
     </header>
 
     <main>
@@ -99,6 +114,6 @@
       </div>
     </main>
 
-    <script type="module" src="scripts/app.js"></script>
+    <script type="module" src="scripts/script.js"></script>
   </body>
 </html>
